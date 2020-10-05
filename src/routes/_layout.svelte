@@ -8,7 +8,7 @@
 
 </style>
 
-<main p="10 sm3">
+<main>
   <Header {segment} />
 
   <main py="4">

@@ -6,12 +6,6 @@
 
 </style>
 
-<nav>
-  <div>
-    <a class={segment === undefined ? 'bold' : ''} href=".">home</a>
-    <a class={segment === 'about' ? 'bold' : ''} href="about">about</a>
-    <a rel="prefetch" class={segment === 'blog' ? 'bold' : ''} href="blog">
-      blog
-    </a>
-  </div>
+<nav p="2 sm3" bg="gray3" flex class="h4" align="center">
+  <a mr="6" class={segment === undefined ? 'bold' : ''} href=".">Display Type</a>
 </nav>
