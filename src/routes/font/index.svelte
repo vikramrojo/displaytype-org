@@ -29,7 +29,7 @@
       {/if}
       <div class="post-item">
         <h2>
-          <a rel="prefetch" href="blog/{post.slug}">{post.title}</a>
+          <a rel="prefetch" href="font/{post.slug}">{post.title}</a>
         </h2>
         <p>{post.excerpt}</p>
         <div class="post-item-footer">
